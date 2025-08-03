@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Stylekart-website/static/css/main.58c9367f.css",
+    "main.js": "/Stylekart-website/static/js/main.e030a39d.js",
+    "index.html": "/Stylekart-website/index.html",
+    "main.58c9367f.css.map": "/Stylekart-website/static/css/main.58c9367f.css.map",
+    "main.e030a39d.js.map": "/Stylekart-website/static/js/main.e030a39d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58c9367f.css",
+    "static/js/main.e030a39d.js"
+  ]
+}
