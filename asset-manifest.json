@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Stylekart-website/static/css/main.58c9367f.css",
-    "main.js": "/Stylekart-website/static/js/main.e030a39d.js",
+    "main.js": "/Stylekart-website/static/js/main.419a4f8b.js",
     "index.html": "/Stylekart-website/index.html",
     "main.58c9367f.css.map": "/Stylekart-website/static/css/main.58c9367f.css.map",
-    "main.e030a39d.js.map": "/Stylekart-website/static/js/main.e030a39d.js.map"
+    "main.419a4f8b.js.map": "/Stylekart-website/static/js/main.419a4f8b.js.map"
   },
   "entrypoints": [
     "static/css/main.58c9367f.css",
-    "static/js/main.e030a39d.js"
+    "static/js/main.419a4f8b.js"
   ]
 }
