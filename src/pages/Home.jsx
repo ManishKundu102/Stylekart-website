@@ -14,20 +14,34 @@ const Home = () => {
       <div className="featured-section">
         <h2>Featured Categories</h2>
         <div className="categories">
-          <div className="category-card">
-            <img src="https://images.unsplash.com/photo-1619516388835-2b60acc4049e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FyaXxlbnwwfHwwfHx8MA%3D%3D" alt="Women" />
+          <Link to="/shop?category=Women" className="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1619516388835-2b60acc4049e?w=500&auto=format&fit=crop&q=60"
+              alt="Women"
+            />
             <h3>Women</h3>
-          </div>
-          <div className="category-card">
-            <img src="https://images.unsplash.com/photo-1480429370139-e0132c086e2a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1lbiUyMGRyZXNzfGVufDB8fDB8fHww" alt="Men" />
+          </Link>
+
+          <Link to="/shop?category=Men" className="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1480429370139-e0132c086e2a?w=500&auto=format&fit=crop&q=60"
+              alt="Men"
+            />
             <h3>Men</h3>
-          </div>
-          <div className="category-card">
-            <img src="https://images.unsplash.com/photo-1578897366846-358bb1c2412a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a2lkcyUyMGRyZXNzfGVufDB8fDB8fHww" alt="Kids" />
+          </Link>
+
+          <Link to="/shop?category=Kids" className="category-card">
+            <img
+              src="https://images.unsplash.com/photo-1578897366846-358bb1c2412a?w=500&auto=format&fit=crop&q=60"
+              alt="Kids"
+            />
             <h3>Kids</h3>
-          </div>
+          </Link>
         </div>
       </div>
+      <footer className="footer">
+        <p>© {new Date().getFullYear()} StyleKart. All Rights Reserved.</p>
+      </footer>
     </div>
   );
 };
